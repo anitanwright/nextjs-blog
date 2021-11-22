@@ -1,10 +1,10 @@
 import Link from 'next/link'
 
-
-export default function FirstPost() {
+export default function AboutMe() {
   return (
     <>
-      <h1>First Post</h1>
+      <h1>This page is all about me</h1>
+    <p>Welcome to my page</p>
       <h2>
         <Link href="/">
           <a>Back to home</a>
@@ -13,3 +13,4 @@ export default function FirstPost() {
     </>
   )
 }
+
