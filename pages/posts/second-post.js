@@ -1,7 +1,6 @@
-import Link from 'next/link'
-import Head from 'next/head'
-import Layout from '../../components/layout'
-
+import Head from "next/head";
+import Layout from "../../components/layout";
+import Link from "next/link";
 
 
 export default function SecondPost() {
@@ -11,9 +10,7 @@ export default function SecondPost() {
         <title>Second Post</title>
       </Head>
       <h1>Second Post</h1>
-      <h2>
-      
-      </h2>
+      <h2></h2>
     </Layout>
-  )
+  );
 }
